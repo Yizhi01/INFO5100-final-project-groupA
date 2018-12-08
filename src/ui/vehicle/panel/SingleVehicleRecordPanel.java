@@ -87,7 +87,7 @@ public class SingleVehicleRecordPanel extends JPanel {
     }
 
     private void createComponent(Vehicle vehicle) {
-        // create image
+        // create image 
         this.imageIcon = ViewUtil.getIcon("src/ui/resources/Cadillac.jpeg", 250, 180);
         this.imageLabel = new BeautifulLabel();
         this.imageLabel.setIcon(this.imageIcon);
